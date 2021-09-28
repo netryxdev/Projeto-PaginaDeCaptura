@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: #48c5ce;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.title{
+    font-size: 26px;
+}
+section{
+    padding: 20px;
+    background-image: url('../images/people.jpg');
+    background-size: cover; /*Para a imagem se ajustar e cobrir a div*/
+    overflow: hidden; /*Para que possa a imagem aparecer completa mesmo com float no formulário*/
+}
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right; /*Para o formulário ficar do lado direito!*/
+}
+h2{
+    font-size: 16px ;
+}
+.mb/*mb = margin bottom para separar melhor os parágrafos*/{
+    margin-bottom: 15px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box; /*Para deixar todos os input do mesmo tamanho*/
+    padding: 10px; /*pra deixar o input mais gordinho*/
+    border: none;/* Para tirar borda feia preta*/
+    margin-bottom: 10px; /* para separar cada input*/
+}
+input[type="submit"]{
+    color: white;
+    background-color:#48c5ce;
+    font-weight: bold;
+}
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+.picture{
+    width: 160px;
+}
+footer{
+    background-color: rgb(70, 70, 70);
+    padding: 40px;
+    text-align: center;
+}
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+.description h3{
+    font-size: 24px;
+}
